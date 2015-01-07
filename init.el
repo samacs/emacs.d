@@ -56,5 +56,12 @@
 (require 'my-lisp)
 (require 'my-text)
 (require 'my-web-mode)
-
+(require 'my-sass)
+(require 'my-rvm)
+(require 'my-haml)
+(require 'my-emmet)
+(require 'my-skype)
+(require 'my-liquid)
+(require 'my-clojure)
+(require 'my-scala)
 ;;; init.el ends here
