@@ -4,12 +4,15 @@
 
 ;;; Code:
 
-(require-package 'sass-mode)
+(require-package 'sass-mode 'less-css-mode)
 
 (require 'sass-mode)
+(require 'less-css-mode)
 
 (push '("\\.scss$" . sass-mode) auto-mode-alist)
 (push '("\\.sass$" . sass-mode) auto-mode-alist)
+
+(push '("\\.less$" . less-css-mode) auto-mode-alist)
 
 (provide 'my-sass)
 

@@ -7,9 +7,9 @@
 ;; Scala
 (setq exec-path (append exec-path (list "/usr/local/scala/bin")))
 
-(require-packages '(scala-mode-auto ensime))
+(require-packages '(scala-mode ensime))
 
-(require 'scala-mode-auto)
+(require 'scala-mode)
 (require 'ensime)
 (add-hook 'scala-mode-hook 'ensime-scala-mode-hook)
 (eval-after-load "scala-mode"

@@ -4,10 +4,13 @@
 
 ;;; Code:
 
-(require-packages '(rinari rbenv ruby-tools))
+(require-packages '(ruby-end rinari rbenv ruby-tools))
 
 ;; Ruby
 (require 'ruby-mode)
+
+(require 'ruby-end)
+
 (push '("Gemfile" . ruby-mode) auto-mode-alist)
 (push '("Gemfile.lock" . ruby-mode) auto-mode-alist)
 (push '("Rakefile" . ruby-mode) auto-mode-alist)
@@ -16,9 +19,13 @@
 (push '("\\.gemspec" . ruby-mode) auto-mode-alist)
 (setq ruby-insert-encoding-magic-comment nil)
 
+(setq ruby-end-insert-newline nil)
+
 ;; Ruby Version Manager
-(require 'rbenv)
-(rbenv-use-global)
+;; (require 'rbenv)
+;; (rbenv-use-global)
+
+
 
 ;; Ruby tools
 (require 'ruby-tools)

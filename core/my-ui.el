@@ -51,7 +51,8 @@
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 
 ;; Theme and fonts
-(load-theme 'leuven t)
+(require 'moe-theme)
+(load-theme 'moe-dark t)
 (when window-system
   (cond ((eq system-type 'gnu/linux)
          (set-default-font "-unknown-Inconsolata-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1"))

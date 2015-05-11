@@ -39,6 +39,9 @@
 ;; warn when opening files bigger than 100MB
 (setq large-file-warning-threshold 100000000)
 
+(add-hook 'ruby-mode-hook 'robe-mode)
+(add-hook 'robe-mode-hook 'ac-robe-setup)
+
 ;; Core configuration
 (require 'my-packages)
 (require 'my-editor)
@@ -58,10 +61,15 @@
 (require 'my-web-mode)
 (require 'my-sass)
 (require 'my-rvm)
-(require 'my-haml)
 (require 'my-emmet)
-(require 'my-skype)
+(require 'my-haml)
 (require 'my-liquid)
-(require 'my-clojure)
-(require 'my-scala)
+(require 'my-c)
+(require 'my-dart)
+(require 'my-php)
+;; (require 'my-skype)
+;; (require 'my-clojure)
+;; (require 'my-scala)
+;; (require 'my-go)
+
 ;;; init.el ends here

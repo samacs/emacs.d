@@ -4,13 +4,13 @@
 
 ;;; Code:
 
-(require-packages '(php-mode flymake-php flymake-easy))
+(require-packages '(php-mode))
 
 (require 'php-mode)
-(require 'flymake-php)
+;; (require 'flymake-php)
 (push '("\\.php$" . php-mode) auto-mode-alist)
 (push '("\\.phtml$" . php-mode) auto-mode-alist)
-(add-hook 'php-mode-hook 'flymake-php-load)
+;; (add-hook 'php-mode-hook 'flymake-php-load)
 
 ;; Toggle between PHP & HTML Helper mode.
 (defun toggle-php-html-mode ()
@@ -23,4 +23,6 @@
 
 (global-set-key [f5] 'toggle-php-html-mode)
 
-;;; my-php.el ends here.
+(provide 'my-php)
+
+;;; my-php.el ends here

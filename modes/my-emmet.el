@@ -1,3 +1,11 @@
+;;; my-emmet-mode.el --- Emmet mode
+;;; Commentary:
+;; Emmet mode.
+
+;;; Code:
+
+(require-packages '(emmet-mode))
+
 (require 'emmet-mode)
 
 (setq emmet-indentation 2)

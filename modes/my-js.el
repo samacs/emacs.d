@@ -10,10 +10,13 @@
 (autoload 'js2-mode "js" nil t)
 (push '("\\.js$" . js2-mode) auto-mode-alist)
 (push '("\\.json$" . js2-mode) auto-mode-alist)
+(push '("\\.es6$" . js2-mode) auto-mode-alist)
 (add-hook 'js2-mode-hook '(lambda ()
                             (local-set-key "\C-x\C-e" 'js-send-last-sexp)
                             (local-set-key "\C-cb" 'js-send-buffer)
                             (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)))
+;;; (add-hook 'js2-mode-hook 'flymake-jslint-load)
+
 (require 'js-comint)
 (setq inferior-js-program-command "node --")
 
