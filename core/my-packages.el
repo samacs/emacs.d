@@ -7,7 +7,7 @@
 (require 'package)
 
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+             '("melpa" . "http://melpa.org/packages/") t)
 (package-initialize)
 
 (defvar my-packages '(ace-jump-buffer
@@ -22,19 +22,25 @@
                       discover-my-major
                       epl
                       exec-path-from-shell
-                      exec-path-from-shell
                       expand-region
                       flycheck
                       ido-ubiquitous
                       iedit
                       move-text
                       nlinum
+                      org
+                      powerline
                       projectile
                       rainbow-delimiters
+                      rust-mode
                       smex
                       volatile-highlights
                       yasnippet
+                      writegood-mode
+
+                      color-theme-sanityinc-tomorrow
                       leuven-theme
+                      moe-theme
                       monokai-theme
                       solarized-theme
                       zenburn-theme)
@@ -64,6 +70,7 @@
                                              my-packages)))
 
 (install-my-packages)
+(require 'epl)
 
 (provide 'my-packages)
 

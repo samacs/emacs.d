@@ -4,3 +4,6 @@ projectile-bookmarks.eld
 recentf
 savefile/*
 init.el
+core/my-ui.el
+image-dired/*
+tramp
