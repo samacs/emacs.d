@@ -4,9 +4,24 @@
 
 ;;; Code:
 
-(require-packages '(js2-mode js-comint))
+(require-packages '(js2-mode js-comint web-beautify))
 
 (require 'js2-mode)
+(require 'web-beautify)
+
+;; JS Beautify
+(eval-after-load 'js2-mode
+  '(define-key js2-mode-map (kbd "C-c b") 'web-beautify-js))
+
+(eval-after-load 'json-mode
+  '(define-key json-mode-map (kbd "C-c b") 'web-beautify-js))
+
+(eval-after-load 'sgml-mode
+  '(define-key html-mode-map (kbd "C-c b") 'web-beautify-html))
+
+(eval-after-load 'css-mode
+  '(define-key css-mode-map (kbd "C-c b") 'web-beautify-css))
+
 (autoload 'js2-mode "js" nil t)
 (push '("\\.js$" . js2-mode) auto-mode-alist)
 (push '("\\.json$" . js2-mode) auto-mode-alist)

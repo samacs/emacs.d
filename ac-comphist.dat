@@ -1,568 +1,1640 @@
-((("Thumb" .
-   [1 0 0 0 0])
-  ("AppRegistry" .
-   [0 0 0 0 1 0 0 0 0 1 0])
-  ("alert" .
-   [1 0 0 0 0])
-  ("API_URL" .
-   [1 0 0 0 0 0 0])
-  ("REQUEST_URL" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("PAGE_SIZE" .
-   [1 0 0 0 0 0 0 0 0])
-  ("API_KEY" .
-   [1 0 0 0 0 0 0])
-  ("backgroundColor" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("listView" .
-   [1 0 0 0 0 0 0 0])
-  ("loaded" .
-   [2 0 0 0 0 0])
-  ("responseData" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("row2" .
-   [1 0 0 0])
-  ("row1" .
-   [1 0 0 0])
-  ("dataSource" .
-   [3 0 0 0 0 0 0 0 0 0])
-  ("styles" .
-   [1 0 0 0 0 0])
-  ("style" .
-   [1 0 0 0 0])
-  ("renderMovie" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("movies" .
-   [2 0 0 0 0 0])
-  ("state" .
-   [2 0 0 0 0])
-  ("ListView" .
-   [2 0 0 0 0 0 0 0])
-  ("return" .
-   [1 0 0 0 0 0])
-  ("setf" .
-   [1 0 0 0])
-  ("guess-my-number" .
-   [0 0 0 0 0 1 0 0 2 0 0 0 2 0 0])
-  ("*big*" .
-   [3 0 0 0 0])
-  ("*big" .
-   [1 0 0 0])
-  ("defparameter" .
-   [2 0 0 0 0 0 0 0 0 1 0 0])
-  ("*small*" .
+((("monokai" .
    [2 0 0 0 0 0 0])
-  ("copy_template" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("make_directories" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("join" .
-   [2 0 0 0])
-  ("mkdir_p" .
-   [0 0 1 1 0 0 0])
-  ("FileUtils" .
-   [1 0 0 0 0 0 1 0 0])
-  ("file" .
-   [7 0 0 0])
-  ("exists" .
-   [1 0 0 0 0 0])
-  ("File" .
-   [3 0 0 0])
-  ("theme_path" .
-   [3 0 0 0 0 0 0 0 0 1])
-  ("themes" .
-   [1 0 0 0 0 0])
-  ("Pilcrow::Path" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("new" .
-   [2 0 0])
-  ("shift" .
-   [3 0 0 0 0])
-  ("args" .
-   [3 0 0 0])
-  ("initialize" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("include" .
-   [1 0 0 0 0 0 0])
-  ("Commands" .
-   [1 0 0 0 0 0 0 1])
-  ("Pilcrow" .
-   [1 0 0 0 0 0 0])
-  ("width" .
-   [1 0 0 0 0])
-  ("$th" .
+  (":sold_by_member" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("startingDirectory" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("remainingFiles" .
+   [0 0 0 0 0 0 0 0 1 1 0 0 0 0])
+  ("remain" .
+   [0 0 0 1 0 0])
+  ("starting" .
+   [0 0 0 0 1 0 0 0])
+  ("age" .
    [1 0 0])
-  ("formatTable" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("asc" .
+  ("stdio" .
+   [3 0 0 0 0])
+  ("key" .
    [1 0 0])
-  ("$tables" .
-   [2 0 0 0 0 0 0])
-  ("currency" .
-   [2 0 0 0 0 0 0 0])
-  ("type" .
-   [3 0 0 0])
-  ("targets" .
-   [2 0 0 0 0 0 0])
-  ("columnDefs" .
+  ("normalized" .
    [2 0 0 0 0 0 0 0 0 0])
-  ("$averageTicketTable" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("else" .
-   [2 0 0 0])
-  ("tableProcessed" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("retrieve" .
-   [2 0 0 0 0 0 0 0])
-  ("DataTable" .
-   [1 0 0 0 0 0 0 0 0])
-  ("destroy" .
-   [5 0 0 0 0 0 0])
-  ("desc" .
-   [3 0 0 0])
-  ("$salesTable" .
-   [4 0 0 0 0 0 0 0 0 0 0])
-  ("responsive" .
+  ("safe_parse" .
    [1 0 0 0 0 0 0 0 0 0])
-  ("order" .
-   [6 0 0 0 0])
-  ("paging" .
-   [1 0 0 0 0 0])
-  ("searching" .
-   [1 0 0 0 0 0 0 0 0])
-  ("false" .
-   [3 0 0 0 0])
-  ("info" .
-   [6 0 0 0])
-  ("dataTable" .
-   [1 0 0 0 0 0 0 0 0])
-  ("options" .
-   [15 0 0 0 0 0 0])
-  ("extend" .
-   [2 0 0 0 0 0])
-  ("angular" .
-   [3 0 0 0 0 0 0])
-  ("ticket" .
-   [2 0 0 0 0 0])
-  ("averages" .
-   [2 0 0 0 0 0 0 0])
-  ("averageTicketData" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("periods" .
-   [3 0 0 0 0 0 0])
-  ("salesData" .
-   [2 0 0 0 0 0 0 0 0])
-  ("sales" .
-   [2 0 0 0 0])
-  ("previous" .
-   [2 0 0 0 0 0 0 0])
-  ("totals" .
-   [1 0 0 0 0 0])
-  ("total" .
-   [2 0 0 0 0])
-  ("current" .
-   [3 0 0 0 0 0 0])
-  ("numeral" .
-   [4 0 0 0 0 0 0])
-  ("name" .
-   [11 0 0 0])
-  ("data" .
-   [5 0 0 0])
-  ("branches" .
-   [1 0 0 0 0 0 0 0])
-  ("forEach" .
-   [1 0 0 0 0 0 0])
-  ("delete" .
-   [1 0 0 0 0 0])
-  ("formatting" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("matches" .
-   [1 0 0 0 0 0 0])
-  ("post" .
-   [1 0 0 0])
-  ("innerHTML" .
-   [1 0 0 0 0 0 0 0 0])
-  ("regexp" .
-   [1 0 0 0 0 0])
-  ("remove" .
-   [8 0 0 0 0 0])
-  ("find" .
-   [8 0 0 0])
-  ("html" .
-   [5 0 0 0])
-  ("push" .
-   [5 0 0 0])
-  ("objects" .
-   [1 0 0 0 0 0 0])
-  ("$firstPost" .
-   [3 0 0 0 0 0 0 0 0 0])
-  ("typeof" .
-   [4 0 0 0 0 0])
-  ("append" .
-   [6 0 0 0 0 0])
-  ("replace" .
-   [1 0 0 0 0 0 0])
-  ("content" .
-   [30 0 0 0 0 0 0])
-  ("this" .
-   [44 0 0 0])
-  ("nodeName" .
-   [1 0 0 0 0 0 0 0])
-  ("src" .
-   [6 0 0])
-  ("attr" .
-   [9 0 0 0])
-  ("$this" .
-   [5 0 0 0 0])
-  ("$html" .
-   [5 0 0 0 0])
-  ("function" .
-   [35 0 0 0 0 0 0 0])
-  ("each" .
-   [10 0 0 0])
-  ("img" .
-   [6 0 0])
-  ("urls" .
-   [11 0 0 0])
-  ("log" .
-   [80 0 0])
-  ("console" .
-   [95 0 0 0 0 0 0])
-  ("nil" .
-   [5 0 0])
-  ("env" .
-   [1 0 0])
-  ("form" .
-   [1 0 0 0])
-  ("list" .
-   [1 0 0 0])
-  ("if" .
-   [3 0])
-  ("value" .
-   [3 0 0 0 0])
-  ("@body" .
-   [1 0 0 0 0])
-  ("for" .
-   [1 0 0])
-  ("gensyms" .
-   [3 0 0 0 0 0 0])
-  ("gensym" .
-   [2 0 0 0 0 0])
-  ("in" .
-   [1 0])
-  ("string" .
-   [2 0 0 0 0 0])
-  ("collect" .
-   [4 0 0 0 0 0 0])
-  ("let" .
-   [4 0 0])
-  ("body" .
-   [1 0 0 0])
-  ("&rest" .
-   [1 0 0 0 0])
-  ("names" .
-   [5 0 0 0 0])
-  ("loop" .
-   [5 0 0 0])
-  ("defmacro" .
-   [4 0 0 0 0 0 0 0])
-  (":mx.hellocode.macro-utilities" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("in-package" .
-   [1 0 0 0 0 0 0 0 0 0])
-  (":ripped" .
-   [1 0 0 0 0 0 0])
-  ("ripped-p" .
-   [1 0 0 0 0 0 0 0])
-  (":rating" .
-   [1 0 0 0 0 0 0])
-  (":title" .
-   [1 0 0 0 0 0])
-  ("ripped" .
-   [2 0 0 0 0 0])
-  ("rating" .
-   [3 0 0 0 0 0])
-  ("title" .
-   [3 0 0 0 0])
-  ("artist-selector" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("select" .
-   [1 0 0 0 0 0])
-  ("getf" .
-   [5 0 0 0])
-  ("equal" .
-   [6 0 0 0 0])
-  ("lambda" .
-   [2 0 0 0 0 0])
-  ("selector-fn" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("remove-if-not" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0])
-  (":artist" .
-   [3 0 0 0 0 0 0])
-  ("artist" .
-   [8 0 0 0 0 0])
-  ("with-standard-io-syntax" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("with-open-file" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("out" .
-   [1 0 0])
-  ("filename" .
-   [3 0 0 0 0 0 0 0])
-  ("y-or-n-p" .
-   [1 0 0 0 0 0 0 0])
-  ("prompt-for-cd" .
+  ("before_action" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("add-record" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("prompt-read" .
-   [5 0 0 0 0 0 0 0 0 0 0])
-  ("make-cd" .
-   [1 0 0 0 0 0 0])
-  ("*query-io*" .
-   [0 0 0 0 0 1 0 0 0 1])
-  ("prompt" .
-   [1 0 0 0 0 1])
-  ("format" .
-   [9 0 0 0 0 0])
-  ("*db*" .
-   [6 0 0 0])
-  ("defun" .
-   [10 0 0 0 0])
-  (":cache-dir" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("fluidvids" .
-   [2 0 0 0 0 0 0 0 0])
-  ("init" .
-   [1 0 0 0])
-  ("players" .
-   [1 0 0 0 0 0 0])
-  ("render" .
-   [1 0 0 0 0 0])
-  ("css" .
-   [1 0 0])
-  ("none" .
-   [1 0 0 0])
-  ("fff" .
-   [1 0 0])
-  ("$table" .
-   [2 0 0 0 0 0])
-  ("closest" .
-   [3 0 0 0 0 0 0])
-  ("$row" .
-   [2 0 0 0])
-  ("color" .
+  (":from" .
    [1 0 0 0 0])
-  ("table" .
-   [1 0 0 0 0])
-  ("button" .
-   [1 0 0 0 0 0])
-  ("margin" .
-   [1 0 0 0 0 0])
-  ("app" .
-   [8 0 0])
-  ("directive" .
-   [13 0 0 0 0 0 0 0 0])
-  ("restrict" .
-   [4 0 0 0 0 0 0 0])
-  ("link" .
-   [5 0 0 0])
-  ("scope" .
-   [18 0 0 0 0])
-  ("element" .
-   [13 0 0 0 0 0 0])
-  ("branch" .
-   [13 0 0 0 0 0])
-  ("moment" .
-   [3 0 0 0 0 0])
-  ("lastUpdate" .
-   [6 0 0 0 0 0 0 0 0 0])
-  ("$tr" .
-   [3 0 0])
-  ("addClass" .
+  ("attr_accessor" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("date_params" .
+   [13 0 0 0 0 0 0 0 0 0 0])
+  ("param_names" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("date_param_names" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("protected" .
+   [1 0 0 0 0 0 0 0 0])
+  ("before_filter" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("DateTimeManagement" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("DateTime" .
    [5 0 0 0 0 0 0 0])
-  ("now" .
-   [3 0 0])
-  ("subtract" .
-   [3 0 0 0 0 0 0 0])
-  ("isAfter" .
-   [1 0 0 0 0 0 0])
-  ("$timeout" .
-   [8 0 0 0 0 0 0 0])
-  ("text" .
-   [2 0 0 0])
-  ("date" .
-   [6 0 0 0])
-  ("tooltip" .
-   [2 0 0 0 0 0 0])
-  ("jQuery" .
-   [1 0 0 0 0 0])
-  ("$scope" .
-   [7 0 0 0 0 0])
-  ("$last" .
-   [9 0 0 0 0])
-  ("bootstrapTable" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("true" .
-   [12 0 0 0])
-  ("$" .
-   [1])
-  ("$on" .
-   [1 0 0])
-  ("period" .
-   [16 0 0 0 0 0])
-  ("bootstrapSortable" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("script" .
-   [1 0 0 0 0 0])
-  ("menu" .
-   [2 0 0 0])
-  ("js" .
-   [1 0])
-  ("strict" .
-   [1 0 0 0 0 0])
-  ("var" .
-   [5 0 0])
-  ("module" .
-   [1 0 0 0 0 0])
-  ("affluence" .
-   [1 0 0 0 0 0 0 0 0])
-  ("$location" .
-   [1 0 0 0 0 0 0 0 0])
-  ("$rootScope" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("sections" .
-   [2 0 0 0 0 0 0 0])
-  ("url" .
-   [1 0 0])
-  ("factory" .
-   [1 0 0 0 0 0 0])
-  ("data_table" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("moe-dark" .
-   [0 0 0 0 0 0 1 0])
-  ("$element" .
-   [1 0 0 0 0 0 0 0])
-  ("elementClass" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("hello-uploader" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("target" .
-   [6 0 0 0 0 0])
-  ("preventDefault" .
-   [7 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("window" .
-   [2 0 0 0 0 0])
-  ("on" .
-   [5 0])
-  ("HelloUploader" .
-   [0 0 1 0 1 1 1 3 0 0 0 0 0])
-  ("prototype" .
-   [4 0 0 0 0 3 0 0 0])
-  ("drop" .
-   [1 0 0 0])
-  ("onDrop" .
-   [2 0 0 0 0 0])
-  ("apply" .
-   [5 0 0 0 0])
-  ("$target" .
-   [9 0 0 0 0 0 0])
-  ("dragenter" .
-   [1 0 0 0 0 0 0 0 0])
-  ("stopPropagation" .
-   [0 0 0 0 0 1 1 1 1 0 0 0 0 0 0])
-  ("self" .
-   [3 0 0 0])
-  ("drag" .
-   [2 0 0 0])
-  ("dragEnter" .
-   [3 0 0 0 0 0 0 0 0])
-  ("onDragEnter" .
-   [6 0 0 0 0 0 0 0 0 0 0])
-  ("DragLeave" .
-   [1 0 0 0 0 0 0 0 0])
-  ("undefined" .
-   [4 0 0 0 0 0 0 0 0])
-  ("Enter" .
-   [1 0 0 0 0])
-  ("the" .
-   [1 0 0])
-  ("hasClass" .
-   [2 0 0 0 0 0 0 0])
-  ("hoverClass" .
-   [4 0 0 0 0 0 0 0 0 0])
-  ("removeClass" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("addHoverClass" .
-   [1 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("removeHoverClass" .
-   [0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0])
-  ("originalEvent" .
-   [0 0 0 0 0 0 0 0 1 0 0 1 0])
-  ("dataTransfer" .
-   [1 0 0 0 0 0 0 0 1 0 0 0])
-  ("length" .
-   [2 0 0 0 0 0])
-  ("throw" .
-   [1 0 0 0 0])
-  ("Error" .
-   [2 0 0 0 0])
-  ("showFiles" .
-   [1 0 0 0 0 0 0 0 0])
-  ("files" .
-   [7 0 0 0 0])
-  ("slow" .
-   [1 0 0 0])
-  ("duration" .
-   [1 0 0 0 0 0 0 0])
-  ("background-color" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("showPreview" .
-   [1 0 0 0 0 1 0 0 0 0 0])
-  ("previewFiles" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("exec" .
-   [1 0 0 0])
-  ("ext" .
-   [1 0 0])
-  ("reader" .
+  ("to_sym" .
    [3 0 0 0 0 0])
-  ("onLoad" .
+  ("param_name" .
+   [15 0 0 0 0 0 0 0 1 0])
+  ("parse" .
+   [2 0 0 0 0])
+  ("default" .
+   [1 0 0 0 0 0 0])
+  ("reload" .
+   [1 0 0 0 0 0])
+  ("$ionicHistory" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("goToLogin" .
+   [0 0 0 0 1 1 0 0 0])
+  ("case" .
+   [1 0 0 0])
+  ("indexOf" .
+   [1 0 0 0 0 0 0])
+  ("shouldRedirect" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  (":is_master" .
+   [1 0 0 0 0 0 0 0 0 0])
+  (":destroy" .
+   [1 0 0 0 0 0 0 0])
+  (":create" .
+   [1 0 0 0 0 0 0])
+  (":new" .
+   [1 0 0 0])
+  ("only:" .
+   [1 0 0 0 0])
+  ("resource" .
+   [2 0 0 0 0 0 0 0])
+  ("original_url" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("redirect_to" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("root_path" .
+   [1 0 0 0 0 0 0 0 0])
+  (":previous_url" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0])
+  (":save_current_url" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("reset_session" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("logout_user" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  (":user_id" .
+   [1 0 0 0 0 0 0 0])
+  ("session" .
+   [6 0 0 0 0 0 0])
+  ("login_user" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("username" .
+   [2 0 0 0 0 0 0 0])
+  ("logIn" .
+   [1 0 0 0 0])
+  ("last_name" .
+   [1 0 0 0 0 0 0 0 0])
+  ("first_name" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("reject" .
+   [2 0 0 0 0 0])
+  ("promise" .
+   [2 0 0 0 0 0 0])
+  ("resolve" .
+   [3 0 0 0 0 0 0])
+  ("defer" .
+   [2 0 0 0 0])
+  ("$q" .
+   [3 0])
+  ("deferred" .
+   [10 0 0 0 0 0 0 0])
+  ("success" .
+   [1 0 0 0 1 0 0])
+  ("password" .
+   [3 0 0 0 0 0 0 0])
+  ("params" .
+   [14 0 0 0 0 0])
+  ("User" .
+   [2 0 0 0])
+  ("javascriptKey" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("applicationId" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("ParseConfiguration" .
+   [1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0])
+  ("Parse" .
+   [3 0 0 0 0])
+  ("go" .
+   [2 0])
+  ("user" .
+   [13 0 0 0])
+  ("createUser" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("signup" .
+   [4 0 0 0 0 0])
+  ("UserService" .
+   [2 0 0 0 0 0 0 1 0 0 0])
+  ("$state" .
+   [5 0 0 0 0 0])
+  ("controller" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("use" .
+   [2 0 0])
+  ("is_master:" .
+   [1 0 0 0 0 0 0 0 0 0])
+  (":variant_inventory_qty" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("count_on_hand:" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("published:" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("count_on_hand" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("add_variant" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  (":variant_price" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("price:" .
+   [2 0 0 0 0 0])
+  (":body_html" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("sanitize" .
+   [1 0 0 0 0 0 0 0])
+  ("sanitizer" .
+   [1 0 0 0 0 0 0 0 0])
+  ("name:" .
+   [1 0 0 0 0])
+  ("option:" .
+   [2 0 0 0 0 0 0])
+  (":variants" .
+   [5 0 0 0 0 0 0 0 0])
+  ("headers_set" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("header" .
+   [3 0 0 0 0 0])
+  ("row" .
+   [13 0 0])
+  ("products" .
+   [2 0 0 0 0 0 0 0])
+  ("handle" .
+   [3 0 0 0 0 0])
+  (":option1_value" .
+   [4 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("modified" .
+   [3 0 0 0 0 0 0 0])
+  ("updated" .
+   [2 0 0 0 0 0 0])
+  ("cloneNode" .
+   [0 0 0 0 0 0 0 1 0])
+  ("builddate" .
+   [0 0 0 0 0 0 3 0 0])
+  ("created" .
+   [4 0 0 0 0 0 0])
+  ("doc" .
+   [4 0 0])
+  ("obj" .
+   [8 0 0])
+  ("addrow" .
+   [1 0 0 0 0 0])
+  ("childNodes" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("notetable" .
+   [0 0 0 0 0 0 1 0 0])
+  ("viewnoteset" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("MouseEvent" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("dispatchEvent" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("disabled" .
+   [1 0 0 0 0 0 0 0])
+  ("call" .
+   [1 0 0 0])
+  ("map" .
+   [4 0 0])
+  ("location" .
+   [1 0 0 0 0 0 0 0])
+  ("getElementById" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("createTextNode" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("appendChild" .
+   [2 0 0 0 2 1 1 3 0 0 0])
+  ("createElement" .
+   [4 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("noteform" .
+   [0 0 0 0 0 0 4 1])
+  ("fields" .
+   [1 0 0 0 0 0])
+  ("attachments" .
+   [4 0 0 0 0 0 0 0 0 0 0])
+  ("noteid" .
+   [3 0 0 0 0 2])
+  ("resethash" .
+   [0 0 0 0 0 0 2 0 0])
+  ("dataset" .
+   [1 0 0 0 0 0 0])
+  ("item" .
+   [2 0 0 0])
+  ("showerror" .
+   [2 0 0 0 0 0 0 1 0])
+  ("that" .
+   [19 0 0 0])
+  ("getTime" .
+   [1 0 0 0 0 0 0])
+  ("formobject" .
+   [7 0 0 0 0 3 4 3 0 0])
+  ("classList" .
+   [1 0 0 0 1 1 0 0 0])
+  ("Array" .
+   [1 0 0 0 0])
+  ("elements" .
+   [3 0 0 0 0 0 0 0])
+  ("selector" .
+   [3 0 0 0 0 0 0 0])
+  ("querySelectorAll" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("errordialog" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("substr" .
+   [2 0 0 0 0 0])
+  ("ampm" .
+   [3 0 0 0])
+  ("getHours" .
+   [2 0 0 0 0 0 0 0])
+  ("timestamp" .
+   [3 0 0 0 0 0 0 0 0])
+  ("buildtime" .
+   [1 0 0 0 0 0 4 0 0])
+  ("remoteorigin" .
+   [0 0 0 0 0 0 0 0 0 1 0 0])
+  ("databasename" .
+   [1 0 0 0 0 0 0 0 0 0 1 0])
+  ("pdb" .
+   [7 0 0])
+  ("writable" .
+   [3 0 0 1 1 0 0 0])
+  ("defineProperty" .
+   [0 0 0 0 0 0 5 0 0 0 0 0 0 0])
+  ("Object" .
+   [5 0 0 0 1 0])
+  ("PouchNotesObj" .
+   [0 0 1 3 1 8 1 0 0 0 0 0 0])
+  ("showview" .
+   [1 0 0 0 0 0 0 0])
+  ("deletebutton" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("editbutton" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("querySelector" .
+   [3 0 0 0 0 1 1 2 0 0 0 0 0])
+  ("buttonmenu" .
+   [1 0 0 0 0 0 0 1 0 0])
+  ("viewnotes" .
+   [4 0 0 0 0 0 0 0 1])
+  ("application" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("Close" .
+   [1 0 0 0 0])
+  ("dialog" .
+   [1 0 0 0 0 0])
+  ("close" .
+   [4 0 0 0 0])
+  ("data-action" .
+   [4 0 0 0 0 0 0 0 0 0 0])
+  ("Search" .
+   [1 0 0 0 0 0])
+  ("hide" .
+   [11 0 0 0])
+  ("attachment" .
+   [4 0 0 0 3 0 2 0 0 0])
+  ("tags" .
+   [5 0 0 0])
+  ("Add" .
+   [1 0 0])
+  ("Note" .
+   [1 0 0 0])
+  ("notetitle" .
+   [6 0 0 0 0 0 0 0 0])
+  ("hidden" .
+   [1 0 0 0 0 0])
+  ("_rev" .
+   [3 0 0 0])
+  ("note" .
+   [6 0 0 0])
+  ("notes" .
+   [1 0 0 0 2])
+  ("addnote" .
+   [3 0 0 0 0 0 0])
+  ("section" .
+   [3 0 0 0 0 0 0])
+  ("data-hide" .
+   [2 0 0 0 0 0 0 0 0])
+  ("data-show" .
+   [2 0 0 0 0 0 0 0 0])
+  ("clicktarget" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("allnotes" .
+   [3 0 0 0 0 0 0 0])
+  ("PouchDB" .
+   [1 0 0 1 0 1 0])
+  ("taking" .
+   [1 0 0 0 0 0])
+  ("manifest" .
+   [2 0 0 0 0 0 0 0])
+  ("Order" .
+   [1 0 0 0 0])
+  ("kmin" .
+   [2 0 0 0])
+  ("min" .
+   [5 0 0])
+  ("minCost" .
+   [1 0 0 1 1 0 0])
+  ("least" .
+   [2 0 0 0 0])
+  ("ncity" .
+   [8 0 0 0 0])
+  ("cost" .
+   [2 0 0 0])
+  ("city" .
+   [14 0 0 0])
+  ("visited" .
+   [3 0 0 0 0 0 0])
+  ("scanf" .
+   [1 0 0 0 0])
+  ("printf" .
+   [24 0 0 0 0 1])
+  ("main" .
+   [6 0 0 1])
+  ("opts" .
+   [4 0 0 0])
+  (":root" .
+   [1 0 0 0 0])
+  ("NonCachingFileHandler" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("port:" .
+   [1 0 0 0 0])
+  ("WEBrick::HTTPServlet::FileHandler" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("server" .
+   [14 0 0 0 0 0])
+  (":port" .
+   [2 0 0 0 0])
+  ("response" .
+   [14 0 0 0 0 0 0 0])
+  ("root" .
+   [2 0 0 0])
+  ("port" .
+   [2 0 0 0])
+  ("RUBY_VERSION" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("div" .
+   [4 0 0])
+  ("productsGrid" .
+   [3 0 0 0 0 0 0 0 0 0 0 0])
+  ("$compile" .
+   [4 0 0 0 0 0 0 0])
+  ("Syncable" .
+   [1 0 0 0 0 0 0 0])
+  (":channel_event" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("namespace:" .
+   [1 0 0 0 0 0 0 0 0 0])
+  (":product_updated" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("with_method:" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("to:" .
+   [2 0 0])
+  (":product_created" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Stores::Websockets::ProductsController" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("Stores::WebsocketsController" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("to" .
+   [2 0])
+  (":to" .
+   [2 0 0])
+  (":products" .
+   [2 0 0 0 0 0 0 0 0])
+  ("namespace" .
+   [2 0 0 0 0 0 0 0 0])
+  ("subscribe" .
+   [6 0 0 0 0 0 0 0 0])
+  ("entity_name" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("trigger" .
+   [2 0 0 0 0 0 0])
+  ("WebsocketRails" .
+   [1 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("event_name" .
+   [5 0 0 0 0 0 0 0 0 0])
+  ("pluralize" .
+   [1 0 0 0 0 0 0 0 0])
+  ("private" .
+   [1 0 0 0 0 0 0])
+  ("channel_name" .
+   [4 0 0 0 0 0 0 0 0 0 0 0])
+  ("after_create_sync" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("after_create" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("channel" .
+   [2 0 0 0 0 0 0])
+  ("sync" .
+   [3 0 0 0])
+  (":sync" .
+   [2 0 0 0 0])
+  ("downcase" .
+   [3 0 0 0 0 0 0 0])
+  ("u16int" .
+   [1 0 0 0 0 0])
+  ("description_html" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("method" .
+   [1 0 0 0 0 0])
+  ("bank_name" .
+   [2 0 0 0 0 0 0 0 0])
+  ("raw" .
+   [2 0 0])
+  ("debit_card_number" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("account_number" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("clabe" .
+   [2 0 0 0 0])
+  ("email_address" .
+   [2 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("remaining_characters" .
+   [0 0 0 0 1 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("account_holder_name" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("methods" .
+   [2 0 0 0 0 0 0])
+  ("description" .
+   [7 0 0 0 0 0 0 0 0 0 0])
+  ("help" .
+   [12 0 0 0])
+  ("label" .
+   [13 0 0 0 0])
+  ("tr" .
+   [26 0])
+  ("hr" .
+   [1 0])
+  ("actualización" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Última" .
+   [1 0 0 0 0 0])
+  ("ion-ios7-refresh-outline" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("icon" .
+   [1 0 0 0])
+  ("class" .
+   [44 0 0 0 0])
+  ("pacificsoft" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("software_package" .
+   [2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("span" .
+   [10 0 0 0])
+  ("slug" .
+   [2 0 0 0])
+  ("ng-if" .
+   [4 0 0 0 0])
+  ("is_isbn_valid" .
+   [1 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("$sum" .
+   [3 0 0 0])
+  ("$weight" .
+   [3 0 0 0 0 0 0])
+  ("$length" .
+   [5 0 0 0 0 0 0])
+  ("$digits" .
+   [7 0 0 0 0 0 0])
+  ("is_numberic_or_x" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("$isbn" .
+   [1 0 0 0 0])
+  ("php" .
+   [2 0 0])
+  ("$dif" .
+   [1 0 0 0])
+  ("$dateArray" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("$timestamp" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("relativeTime" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("relativeDate" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("relative" .
+   [1 0 0 0 0 0 0 0])
+  ("TimeClass" .
+   [2 0 0 0 0 0 0 0 0])
+  ("$format" .
+   [1 0 0 0 0 0 0])
+  ("$_days" .
    [1 0 0 0 0 0])
   ("$time" .
    [6 0 0 0 0])
-  ("$_days" .
+  ("onLoad" .
    [1 0 0 0 0 0])
-  ("$format" .
-   [1 0 0 0 0 0 0])
-  ("TimeClass" .
-   [2 0 0 0 0 0 0 0 0])
-  ("relative" .
-   [1 0 0 0 0 0 0 0])
-  ("relativeDate" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("relativeTime" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("$timestamp" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("$dateArray" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("$dif" .
+  ("reader" .
+   [5 0 0 0 0 0])
+  ("ext" .
+   [1 0 0])
+  ("exec" .
    [1 0 0 0])
-  ("php" .
-   [2 0 0])
-  ("$isbn" .
+  ("previewFiles" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("showPreview" .
+   [1 0 0 0 0 1 0 0 0 0 0])
+  ("background-color" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("duration" .
+   [1 0 0 0 0 0 0 0])
+  ("slow" .
+   [1 0 0 0])
+  ("files" .
+   [9 0 0 0 0])
+  ("showFiles" .
+   [1 0 0 0 0 0 0 0 0])
+  ("Error" .
+   [3 0 0 0 0])
+  ("throw" .
    [1 0 0 0 0])
-  ("is_numberic_or_x" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("$digits" .
-   [7 0 0 0 0 0 0])
-  ("$length" .
-   [5 0 0 0 0 0 0])
-  ("$weight" .
+  ("length" .
+   [6 0 0 0 0 0])
+  ("dataTransfer" .
+   [1 0 0 0 0 0 0 0 1 0 0 0])
+  ("originalEvent" .
+   [0 0 0 0 0 0 0 0 1 0 0 1 0])
+  ("removeHoverClass" .
+   [0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0])
+  ("addHoverClass" .
+   [1 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("removeClass" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("hoverClass" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("hasClass" .
+   [2 0 0 0 0 0 0 0])
+  ("the" .
+   [2 0 0])
+  ("Enter" .
+   [1 0 0 0 0])
+  ("undefined" .
+   [10 0 0 0 0 0 0 0 0])
+  ("DragLeave" .
+   [1 0 0 0 0 0 0 0 0])
+  ("onDragEnter" .
+   [6 0 0 0 0 0 0 0 0 0 0])
+  ("dragEnter" .
+   [3 0 0 0 0 0 0 0 0])
+  ("drag" .
+   [2 0 0 0])
+  ("self" .
+   [5 0 0 0])
+  ("stopPropagation" .
+   [0 0 0 0 0 1 1 1 1 0 0 0 0 0 0])
+  ("dragenter" .
+   [1 0 0 0 0 0 0 0 0])
+  ("$target" .
+   [9 0 0 0 0 0 0])
+  ("apply" .
+   [5 0 0 0 0])
+  ("onDrop" .
+   [2 0 0 0 0 0])
+  ("drop" .
+   [1 0 0 0])
+  ("prototype" .
+   [16 0 0 0 0 4 3 0 0])
+  ("HelloUploader" .
+   [0 0 1 0 1 1 1 3 0 0 0 0 0])
+  ("on" .
+   [5 0])
+  ("window" .
+   [3 0 0 0 0 0])
+  ("preventDefault" .
+   [7 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("target" .
+   [7 0 0 0 0 0])
+  ("hello-uploader" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("elementClass" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("$element" .
+   [1 0 0 0 0 0 0 0])
+  ("moe-dark" .
+   [0 0 0 0 0 0 1 0])
+  ("data_table" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("factory" .
+   [1 0 0 0 0 0 0])
+  ("url" .
+   [2 0 0])
+  ("sections" .
+   [2 0 0 0 0 0 0 0])
+  ("$rootScope" .
+   [2 0 0 0 2 0 0 1 0 0])
+  ("$location" .
+   [1 0 0 0 0 0 0 0 0])
+  ("affluence" .
+   [1 0 0 0 0 0 0 0 0])
+  ("module" .
+   [3 0 0 0 0 0])
+  ("var" .
+   [50 0 0])
+  ("strict" .
+   [6 0 0 0 0 0])
+  ("js" .
+   [3 0])
+  ("menu" .
+   [2 0 0 0])
+  ("script" .
+   [4 0 0 0 0 0])
+  ("bootstrapSortable" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("period" .
+   [16 0 0 0 0 0])
+  ("$on" .
+   [1 0 0])
+  ("$" .
+   [1])
+  ("true" .
+   [32 0 0 0])
+  ("bootstrapTable" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("$last" .
+   [9 0 0 0 0])
+  ("$scope" .
+   [106 0 0 1 0 0])
+  ("jQuery" .
+   [1 0 0 0 0 0])
+  ("tooltip" .
+   [2 0 0 0 0 0 0])
+  ("date" .
+   [43 0 1 0])
+  ("text" .
+   [10 0 0 0])
+  ("$timeout" .
+   [8 0 0 0 0 0 0 0])
+  ("isAfter" .
+   [1 0 0 0 0 0 0])
+  ("subtract" .
+   [3 0 0 0 0 0 0 0])
+  ("now" .
+   [10 0 0])
+  ("addClass" .
+   [5 0 0 0 0 0 0 0])
+  ("$tr" .
+   [3 0 0])
+  ("lastUpdate" .
+   [6 0 0 0 0 0 0 0 0 0])
+  ("moment" .
+   [35 0 0 0 0 0])
+  ("branch" .
+   [19 0 0 0 0 0])
+  ("element" .
+   [17 0 0 0 0 0 0])
+  ("scope" .
+   [21 0 0 0 0])
+  ("link" .
+   [10 0 0 0])
+  ("restrict" .
+   [4 0 0 0 0 0 0 0])
+  ("directive" .
+   [13 0 0 0 0 0 0 0 0])
+  ("app" .
+   [8 0 0])
+  ("margin" .
+   [1 0 0 0 0 0])
+  ("button" .
+   [33 0 0 0 0 0])
+  ("table" .
+   [1 0 0 0 0])
+  ("color" .
+   [1 0 0 0 0])
+  ("$row" .
+   [2 0 0 0])
+  ("closest" .
    [3 0 0 0 0 0 0])
-  ("$sum" .
+  ("$table" .
+   [2 0 0 0 0 0])
+  ("fff" .
+   [1 0 0])
+  ("none" .
+   [1 0 0 0])
+  ("css" .
+   [2 0 0])
+  ("render" .
+   [1 0 0 0 0 0])
+  ("players" .
+   [1 0 0 0 0 0 0])
+  ("init" .
+   [2 0 0 0])
+  ("fluidvids" .
+   [2 0 0 0 0 0 0 0 0])
+  (":cache-dir" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("defun" .
+   [10 0 0 0 0])
+  ("*db*" .
+   [6 0 0 0])
+  ("format" .
+   [29 0 0 0 0 0])
+  ("prompt" .
+   [1 0 0 0 0 1])
+  ("*query-io*" .
+   [0 0 0 0 0 1 0 0 0 1])
+  ("make-cd" .
+   [1 0 0 0 0 0 0])
+  ("prompt-read" .
+   [5 0 0 0 0 0 0 0 0 0 0])
+  ("add-record" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("prompt-for-cd" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("y-or-n-p" .
+   [1 0 0 0 0 0 0 0])
+  ("filename" .
+   [3 0 0 0 0 0 0 0])
+  ("out" .
+   [1 0 0])
+  ("with-open-file" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("with-standard-io-syntax" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("artist" .
+   [8 0 0 0 0 0])
+  (":artist" .
+   [3 0 0 0 0 0 0])
+  ("remove-if-not" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("selector-fn" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("lambda" .
+   [2 0 0 0 0 0])
+  ("equal" .
+   [6 0 0 0 0])
+  ("getf" .
+   [5 0 0 0])
+  ("select" .
+   [1 0 0 0 0 0])
+  ("artist-selector" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("title" .
+   [14 0 0 0 0])
+  ("rating" .
+   [3 0 0 0 0 0])
+  ("ripped" .
+   [2 0 0 0 0 0])
+  (":title" .
+   [3 0 0 0 0 0])
+  (":rating" .
+   [1 0 0 0 0 0 0])
+  ("ripped-p" .
+   [1 0 0 0 0 0 0 0])
+  (":ripped" .
+   [1 0 0 0 0 0 0])
+  ("in-package" .
+   [1 0 0 0 0 0 0 0 0 0])
+  (":mx.hellocode.macro-utilities" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("defmacro" .
+   [4 0 0 0 0 0 0 0])
+  ("loop" .
+   [6 0 0 0])
+  ("names" .
+   [8 0 0 0 0])
+  ("&rest" .
+   [1 0 0 0 0])
+  ("body" .
+   [4 0 0 0])
+  ("let" .
+   [4 0 0])
+  ("collect" .
+   [4 0 0 0 0 0 0])
+  ("string" .
+   [11 0 0 0 0 0])
+  ("in" .
+   [5 0])
+  ("gensym" .
+   [2 0 0 0 0 0])
+  ("gensyms" .
+   [3 0 0 0 0 0 0])
+  ("for" .
+   [1 0 0])
+  ("@body" .
+   [1 0 0 0 0])
+  ("value" .
+   [13 0 0 0 0])
+  ("if" .
+   [8 0])
+  ("list" .
+   [2 0 0 0])
+  ("form" .
+   [1 0 0 0])
+  ("env" .
+   [1 0 0])
+  ("nil" .
+   [16 0 0])
+  ("console" .
+   [164 0 0 0 0 0 0])
+  ("log" .
+   [128 0 0])
+  ("urls" .
+   [11 0 0 0])
+  ("img" .
+   [6 0 0])
+  ("each" .
+   [12 0 0 0])
+  ("function" .
+   [98 0 0 0 0 0 0 0])
+  ("$html" .
+   [8 0 0 0 0])
+  ("$this" .
+   [5 0 0 0 0])
+  ("attr" .
+   [9 0 0 0])
+  ("src" .
+   [10 0 0])
+  ("nodeName" .
+   [1 0 0 0 0 0 0 0])
+  ("this" .
+   [63 0 0 0])
+  ("content" .
+   [30 0 0 0 0 0 0])
+  ("replace" .
+   [1 0 0 0 0 0 0])
+  ("append" .
+   [7 0 0 0 0 0])
+  ("typeof" .
+   [12 0 0 0 0 0])
+  ("$firstPost" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("objects" .
+   [1 0 0 0 0 0 0])
+  ("push" .
+   [7 0 0 0])
+  ("html" .
+   [11 0 0 0])
+  ("find" .
+   [10 0 0 0])
+  ("remove" .
+   [11 0 0 0 0 0])
+  ("regexp" .
+   [1 0 0 0 0 0])
+  ("innerHTML" .
+   [2 0 0 0 0 1 0 0 0])
+  ("post" .
+   [1 0 0 0])
+  ("matches" .
+   [1 0 0 0 0 0 0])
+  ("formatting" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("delete" .
+   [1 0 0 0 0 0])
+  ("forEach" .
+   [1 0 0 0 0 0 0])
+  ("branches" .
+   [1 0 0 0 0 0 0 0])
+  ("data" .
+   [13 0 0 0])
+  ("name" .
+   [30 0 0 0])
+  ("numeral" .
+   [4 0 0 0 0 0 0])
+  ("current" .
+   [8 0 0 0 0 0 0])
+  ("total" .
+   [4 0 0 0 0])
+  ("totals" .
+   [1 0 0 0 0 0])
+  ("previous" .
+   [2 0 0 0 0 0 0 0])
+  ("sales" .
+   [2 0 0 0 0])
+  ("salesData" .
+   [2 0 0 0 0 0 0 0 0])
+  ("periods" .
+   [3 0 0 0 0 0 0])
+  ("averageTicketData" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("averages" .
+   [2 0 0 0 0 0 0 0])
+  ("ticket" .
+   [2 0 0 0 0 0])
+  ("angular" .
+   [6 0 0 0 0 0 0])
+  ("extend" .
+   [2 0 0 0 0 0])
+  ("options" .
+   [36 0 0 0 0 0 0])
+  ("dataTable" .
+   [1 0 0 0 0 0 0 0 0])
+  ("info" .
+   [6 0 0 0])
+  ("false" .
+   [7 0 0 0 0])
+  ("searching" .
+   [1 0 0 0 0 0 0 0 0])
+  ("paging" .
+   [1 0 0 0 0 0])
+  ("order" .
+   [6 0 0 0 0])
+  ("responsive" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("$salesTable" .
+   [4 0 0 0 0 0 0 0 0 0 0])
+  ("desc" .
    [3 0 0 0])
-  ("is_isbn_valid" .
-   [1 0 0 0 0 0 0 0 1 0 0 0 0])))
+  ("destroy" .
+   [5 0 0 0 0 0 0])
+  ("DataTable" .
+   [1 0 0 0 0 0 0 0 0])
+  ("retrieve" .
+   [2 0 0 0 0 0 0 0])
+  ("tableProcessed" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("else" .
+   [6 0 0 0])
+  ("$averageTicketTable" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("columnDefs" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("targets" .
+   [2 0 0 0 0 0 0])
+  ("type" .
+   [12 0 0 0])
+  ("currency" .
+   [2 0 0 0 0 0 0 0])
+  ("$tables" .
+   [2 0 0 0 0 0 0])
+  ("asc" .
+   [1 0 0])
+  ("formatTable" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("$th" .
+   [1 0 0])
+  ("width" .
+   [1 0 0 0 0])
+  ("Pilcrow" .
+   [1 0 0 0 0 0 0])
+  ("Commands" .
+   [5 0 0 0 1 1 0 2])
+  ("include" .
+   [17 0 0 0 0 0 0])
+  ("initialize" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("args" .
+   [3 0 0 0])
+  ("shift" .
+   [3 0 0 0 0])
+  ("new" .
+   [11 0 0])
+  ("Pilcrow::Path" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("themes" .
+   [1 0 0 0 0 0])
+  ("theme_path" .
+   [3 0 0 0 0 0 0 0 0 1])
+  ("File" .
+   [3 0 0 0])
+  ("exists" .
+   [1 0 0 0 0 0])
+  ("file" .
+   [7 0 0 0])
+  ("FileUtils" .
+   [1 0 0 0 0 0 1 0 0])
+  ("mkdir_p" .
+   [0 0 1 1 0 0 0])
+  ("join" .
+   [2 0 0 0])
+  ("make_directories" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("copy_template" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("*small*" .
+   [2 0 0 0 0 0 0])
+  ("defparameter" .
+   [2 0 0 0 0 0 0 0 0 1 0 0])
+  ("*big" .
+   [1 0 0 0])
+  ("*big*" .
+   [3 0 0 0 0])
+  ("guess-my-number" .
+   [0 0 0 0 0 1 0 0 2 0 0 0 2 0 0])
+  ("setf" .
+   [1 0 0 0])
+  ("return" .
+   [12 0 0 0 0 0])
+  ("ListView" .
+   [2 0 0 0 0 0 0 0])
+  ("state" .
+   [3 0 0 0 0])
+  ("movies" .
+   [2 0 0 0 0 0])
+  ("renderMovie" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("style" .
+   [1 0 0 0 0])
+  ("styles" .
+   [1 0 0 0 0 0])
+  ("dataSource" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("row1" .
+   [1 0 0 0])
+  ("row2" .
+   [1 0 0 0])
+  ("responseData" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("loaded" .
+   [2 0 0 0 0 0])
+  ("listView" .
+   [1 0 0 0 0 0 0 0])
+  ("backgroundColor" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("API_KEY" .
+   [1 0 0 0 0 0 0])
+  ("PAGE_SIZE" .
+   [1 0 0 0 0 0 0 0 0])
+  ("REQUEST_URL" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("API_URL" .
+   [1 0 0 0 0 0 0])
+  ("alert" .
+   [5 0 0 0 0])
+  ("AppRegistry" .
+   [0 0 0 0 1 0 0 0 0 1 0])
+  ("Thumb" .
+   [1 0 0 0 0])
+  ("PORT" .
+   [1 0 0 0])
+  (":open" .
+   [1 0 0 0 0])
+  ("send" .
+   [3 0 0 0])
+  ("event" .
+   [109 0 0 0 0])
+  (":message" .
+   [1 0 0 0 0 0 0 0])
+  (":close" .
+   [1 0 0 0 0 0])
+  ("new_client" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("version" .
+   [1 0 0 0 0 0 0])
+  ("source" .
+   [7 0 0 0 0 0])
+  ("rails" .
+   [1 0 0 0 0])
+  ("Rails" .
+   [2 0 0 0 0])
+  ("token" .
+   [1 0 0 0 0])
+  ("debug" .
+   [9 0 0 0 0])
+  ("product" .
+   [17 0 0 0 0 0 0])
+  ("message" .
+   [5 0 0 0 0 0 0])
+  (":id" .
+   [1 0 0])
+  ("logger" .
+   [7 0 0 0 0 0])
+  ("intro" .
+   [2 0 0 0 0])
+  ("caption" .
+   [2 0 0 0 0 0 0])
+  ("iostream" .
+   [1 0 0 0 0 0 0 0])
+  ("std" .
+   [4 0 0])
+  ("distance" .
+   [11 0 0 0 0 0 0 0])
+  ("of" .
+   [1 0])
+  ("c" .
+   [1])
+  ("in_angle" .
+   [2 0 0 0 0 0 0 1])
+  ("time_in_air" .
+   [1 0 0 0 0 0 0 1 0 0 0])
+  ("kVelocity" .
+   [0 0 0 1 0 1 0 0 0])
+  ("kGravity" .
+   [1 0 0 0 0 0 0 0])
+  ("math" .
+   [1 0 0 0])
+  ("cin" .
+   [5 0 0])
+  ("angle" .
+   [2 0 0 0 0])
+  ("kPi" .
+   [0 0 1])
+  ("CalculateDistance" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("enemy" .
+   [6 0 0 3 0])
+  ("enemy_position" .
+   [0 0 0 0 0 0 0 0 1 2 0 0 0 0])
+  ("kMaximumDistance" .
+   [0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0])
+  ("endl" .
+   [7 0 0 0])
+  ("kMinimumDistance" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("shots" .
+   [2 0 0 0 0])
+  ("kNumberOfShells" .
+   [0 0 0 0 2 0 0 0 0 0 0 0 0 0 0])
+  ("Initial" .
+   [0 0 0 1 0 0 0])
+  ("Initialize" .
+   [0 0 0 0 0 0 0 0 1 0])
+  ("hit" .
+   [1 0 0])
+  ("CheckShot" .
+   [0 0 0 0 0 1 0 0 0])
+  ("ignore" .
+   [1 0 0 0 0 0])
+  ("number_killed" .
+   [2 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("cout" .
+   [20 0 0 0])
+  ("abs" .
+   [2 0 0])
+  ("request" .
+   [3 0 0 0 0 0 0])
+  (":json" .
+   [1 0 0 0 0])
+  ("headers" .
+   [3 0 0 0 0 0 0])
+  ("result" .
+   [1 0 0 0 0 0])
+  ("events" .
+   [34 0 0 0 0 0])
+  ("EventsService" .
+   [0 0 0 0 0 1 0 3 0 2 0 0 0])
+  ("all" .
+   [1 0 0])
+  ("then" .
+   [8 0 0 0])
+  ("arguments" .
+   [1 0 0 0 0 0 0 0 0])
+  ("loadEvents" .
+   [4 0 0 0 1 0 0 0 0 0])
+  ("ng-click" .
+   [5 0 0 0 0 0 0 0])
+  ("closeModal" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("ng-model" .
+   [9 0 0 0 0 0 0 0])
+  ("time" .
+   [24 0 0 0])
+  ("lib" .
+   [1 0 0])
+  ("bundle" .
+   [1 0 0 0 0 0])
+  ("--" .
+   [1 0])
+  ("ionic-timepicker" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("timePickerObject" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("inputEpochTime" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("input" .
+   [3 0 0 0 0])
+  ("placeholder" .
+   [6 0 0 0 0 0 0 0 0 0 0])
+  ("Start" .
+   [3 0 0 0 0])
+  ("End" .
+   [2 0 0])
+  ("button-clear" .
+   [6 0 0 0 0 0 0 0 0 0 0 0])
+  ("starts_at" .
+   [16 0 0 0 0 0 0 0 0])
+  ("clone" .
+   [3 0 0 0 0])
+  ("add" .
+   [4 0 0])
+  ("hours" .
+   [1 0 0 0 0])
+  ("endsAt" .
+   [11 0 0 0 0 0])
+  ("startsAt" .
+   [24 0 0 0 0 0 0 0])
+  ("item-floating-label" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("input-label" .
+   [5 0 0 0 0 0 0 0 0 0 0])
+  ("showEvent" .
+   [2 0 0 0 0 0 0 0 0])
+  ("ion-item" .
+   [4 0 0 0 0 0 0 0])
+  ("item-input" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("ng-focus" .
+   [1 0 0 0 0 0 0 0])
+  ("showTimePicker" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("$cordovaDatePicker" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("show" .
+   [6 0 0 0])
+  ("uiConfig" .
+   [2 0 0 0 0 1 0 0])
+  ("datePicker" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("will" .
+   [2 0 0 0])
+  ("Date" .
+   [20 0 1 0])
+  ("mode" .
+   [2 0 0 0])
+  ("dir" .
+   [31 0 0])
+  ("HH" .
+   [3 0])
+  ("mm" .
+   [4 0])
+  ("get" .
+   [13 0 0])
+  ("month" .
+   [2 0 0 0 0])
+  ("button-positive" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("button-small" .
+   [3 0 0 0 0 0 0 0 0 0 0 0])
+  ("set" .
+   [4 0 0])
+  ("at" .
+   [2 0])
+  ("showDatePicker" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("starts" .
+   [4 0 0 0 0 0])
+  ("YYYY-MM-DD" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("selectedTime" .
+   [22 0 0 0 0 0 0 0 2 4 0 0])
+  ("minDate" .
+   [1 0 0 0 0 0 0])
+  ("col" .
+   [1 0 0])
+  ("col-50" .
+   [1 0 0 0 0 0])
+  ("text-center" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("minute" .
+   [3 0 0 0 0 0])
+  ("toDate" .
+   [16 0 0 0 0 0])
+  ("closeEvent" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("error" .
+   [32 0 0 0 0])
+  ("tz" .
+   [7 0])
+  ("parameters" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("Event" .
+   [1 0 0 0 0])
+  ("ends_at" .
+   [7 0 0 0 0 0 0])
+  ("eventSources" .
+   [1 0 0 0 0 0 4 0 0 0 0 0])
+  ("start" .
+   [9 0 0 0 0])
+  ("end" .
+   [7 0 0])
+  ("all_day" .
+   [1 0 0 0 0 0 0])
+  ("id" .
+   [5 0])
+  ("update" .
+   [2 0 0 0 0 0])
+  ("SELECT" .
+   [0 0 0 0 0 1])
+  ("hour" .
+   [1 0 1 0])
+  ("America" .
+   [1 0 0 0 0 0 0])
+  ("Hermosillo" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("ev" .
+   [2 0])
+  ("callback" .
+   [13 0 0 0 0 0 0 0])
+  ("timezone" .
+   [1 0 0 0 0 0 0 0])
+  ("called" .
+   [3 0 0 0 0 0])
+  ("uiCalendarConfig" .
+   [1 0 0 0 0 0 0 0 1 0 1 1 0 1 0 0])
+  ("calendars" .
+   [3 0 0 0 0 0 0 0 0])
+  ("fullCalendar" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("calendar" .
+   [5 0 0 0 0 0 0 0])
+  ("ng-init" .
+   [1 0 0 0 0 0 0])
+  ("eventsCalendar" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("eventClicked" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("currentDate" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("dayClick" .
+   [2 0 0 0 0 0 0 0])
+  ("save" .
+   [2 0 0 0])
+  ("$destroy" .
+   [1 0 0 0 0 0 0 0])
+  ("modal" .
+   [2 0 0 0 0])
+  ("initModal" .
+   [1 0 0 0 0 0 0 0 0])
+  ("YYYY" .
+   [2 0 0 0])
+  ("ends" .
+   [1 0 0 0])
+  ("scroll" .
+   [3 0 0 0 0 0])
+  ("document" .
+   [18 0 0 0 1 0 0 0])
+  ("height" .
+   [2 0 0 0 0 0])
+  ("$ionicScrollDelegate" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0])
+  ("scrollTop" .
+   [3 0 0 0 0 0 0 0 0])
+  ("scrollPosition" .
+   [1 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("replication" .
+   [3 0 0 0 0 0 0 0 0 0 1])
+  ("remote" .
+   [5 0 0 0 0 0])
+  ("live" .
+   [1 0 0 0])
+  ("retry" .
+   [1 0 0 0 0])
+  ("local" .
+   [4 0 0 0 0])
+  ("skipSetup" .
+   [1 0 0 0 0 0 0 0 0])
+  ("DataSource" .
+   [3 0 0 0 0 2 0 0 0 0])
+  ("endpoints" .
+   [1 0 0 0 0 0 0 0 0])
+  ("dbs" .
+   [1 0 0])
+  ("instance" .
+   [2 0 0 0 0 0 0 0])
+  ("modelName" .
+   [1 0 0 0 0 0 0 0 0])
+  ("remoteUrl" .
+   [0 0 0 0 0 0 0 0 1])
+  ("replicate" .
+   [2 0 0 0 0 0 0 0 0])
+  ("localDB" .
+   [1 0 0 0 0 0 2])
+  ("remoteDb" .
+   [0 0 0 0 0 0 0 2])
+  ("remoteDB" .
+   [2 0 0 0 0 0 0 0])
+  ("changes" .
+   [1 0 0 0 0 0 0])
+  ("continuous" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("onChange" .
+   [1 0 0 0 0 0 0 0])
+  ("change" .
+   [1 0 0 0 0 0])
+  (":canceled" .
+   [2 0 0 0 0 0 0 0 0])
+  ("transition" .
+   [2 0 0 0 0 0 0 0 0 0])
+  (":completed" .
+   [2 0 0 0 0 0 0 0 0 0])
+  (":paid" .
+   [2 0 0 0 0])
+  ("reduce" .
+   [1 0 0 0 0 0])
+  ("option_name" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("option_value" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("DAYS" .
+   [8 0 1 0])
+  ("arr" .
+   [9 0 0])
+  ("rows" .
+   [11 0 0 0])
+  ("MONKEYS" .
+   [1 0 0 3 3 0 0])
+  ("getFood" .
+   [1 0 0 0 0 1 0])
+  ("food" .
+   [2 0 0 1])
+  ("avgFood" .
+   [0 0 1 1 0 0 0])
+  ("leastAmount" .
+   [1 0 0 0 0 1 0 0 0 0 0])
+  ("greatestAmount" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("nRows" .
+   [5 0 0 3 3])
+  ("nCols" .
+   [6 0 0 4 0])
+  ("Moneky" .
+   [0 0 0 0 1 0])
+  ("chrono" .
+   [1 0 0 0 0 0])
+  ("clock" .
+   [2 0 0 0 0])
+  ("api" .
+   [10 0 0])
+  ("func" .
+   [0 0 0 2])
+  ("Item" .
+   [2 0 0 0])
+  ("GetSupported" .
+   [0 0 0 1 0 0 0 0 0 0 0 0])
+  ("values" .
+   [1 0 0 0 0 0])
+  ("Values" .
+   [1 0 0 0 0 0])
+  ("http" .
+   [10 0 0 0])
+  ("Header" .
+   [2 0 0 0 0 0])
+  ("int" .
+   [8 0 0])
+  ("items" .
+   [1 0 0 0 0])
+  ("NewAPI" .
+   [1 0 0 0 0 0])
+  ("AddResource" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("err" .
+   [15 0 0])
+  ("Get" .
+   [2 0 0])
+  ("ioutil" .
+   [1 0 0 0 0 0])
+  ("resp" .
+   [1 0 0 0])
+  ("rest" .
+   [6 0 0 0])
+  ("ResponseWriter" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Request" .
+   [1 0 0 0 0 0 0])
+  ("StripPrefix" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("Fatal" .
+   [1 0 0 0 0])
+  ("ListenAndServe" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("remove_column" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  (":orders" .
+   [1 0 0 0 0 0 0])
+  ("Store" .
+   [2 0 0 0 0])
+  ("tenant_key" .
+   [1 0 0 0 0 0 0 1 0 0])
+  ("switch" .
+   [1 0 0 0 1 0])
+  ("Product" .
+   [1 0 0 0 0 0 0])
+  ("Variant" .
+   [2 0 0 0 0 0 0])
+  ("model" .
+   [2 0 0 0 0])
+  ("update_all" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("use_inventory:" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("updated_at:" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("Time" .
+   [2 0 0 0])
+  ("utc" .
+   [3 0 0])
+  ("variant" .
+   [1 0 0 0 0 0 0])
+  ("argc" .
+   [3 0 0 0])
+  ("argv" .
+   [3 0 0 0])
+  ("num_states" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("states" .
+   [1 0 0 0 0 0])
+  ("funding" .
+   [1 0 0 0 0 0 0])
+  ("fund" .
+   [22 0 0 0])
+  ("Fund" .
+   [10 0 0 0])
+  ("initialBalance" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("FundServer" .
+   [6 0 0 0 0 0 0 0 0 0])
+  ("NewFund" .
+   [1 0 0 0 0 0 0])
+  ("command" .
+   [6 0 0 0 0 0 0])
+  ("Withdraw" .
+   [4 0 0 0 0 0 0 3])
+  ("WithdrawCommand" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 2 0 1])
+  ("withdrawal" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("Amount" .
+   [3 0 0 0 0 0])
+  ("BalanceCommand" .
+   [2 0 0 0 0 0 0 0 0 0 0 1 1 0])
+  ("balance" .
+   [8 0 0 0 1 0 0])
+  ("Balance" .
+   [7 0 0 0 0 0 0])
+  ("getBalance" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("fmt" .
+   [2 0 0])
+  ("NewFundServer" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("amount" .
+   [4 0 0 0 0 0])
+  ("make" .
+   [3 0 0 0])
+  ("Response" .
+   [2 0 0 0 0 0 0 0])
+  ("balanceResponseChan" .
+   [0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0])
+  ("commands" .
+   [4 0 0 0 0 0 0 1])
+  ("responseChan" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("Transactor" .
+   [6 0 0 0 0 0 0 0 0 1])
+  ("Done" .
+   [5 0 0 0])
+  ("TransactionCommand" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 2 3 0 0])
+  ("Transact" .
+   [3 0 0 0 1 1 2 0])
+  ("bool" .
+   [1 0 0 0])
+  ("transaction" .
+   [5 0 0 0 0 0 0 0 0 0 0])
+  ("pizza" .
+   [0 0 0 0 1])
+  ("pizzaTime" .
+   [3 0 0 0 0 0 0 0 0])
+  ("managedValue" .
+   [3 0 0 0 1 0 0 0 1 0 0 0])
+  ("ages" .
+   [5 0 0 0])
+  ("count" .
+   [4 0 0 0 0])
+  ("a" .
+   [1])
+  ("cur_name" .
+   [5 0 0 0 0 0 0 0])
+  ("cur_age" .
+   [5 0 0 0 0 0 0])
+  (":member_id" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("models" .
+   [1 0 0 0 0 0])
+  ("Isbn" .
+   [2 0 0 0])
+  ("Title" .
+   [2 0 0 0 0])
+  ("Author" .
+   [2 0 0 0 0 0])
+  ("Price" .
+   [2 0 0 0 0])
+  ("AllBooks" .
+   [1 0 0 0 0 0 0 0])
+  ("Book" .
+   [3 0 0 0])
+  ("db" .
+   [1 0])
+  ("bks" .
+   [4 0 0])
+  ("bk" .
+   [6 0])))

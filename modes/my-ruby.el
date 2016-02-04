@@ -19,7 +19,7 @@
 (push '("\\.gemspec" . ruby-mode) auto-mode-alist)
 (setq ruby-insert-encoding-magic-comment nil)
 
-(setq ruby-end-insert-newline nil)
+(setq ruby-end-insert-newline t)
 
 ;; Ruby Version Manager
 ;; (require 'rbenv)

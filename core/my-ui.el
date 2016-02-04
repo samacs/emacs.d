@@ -52,8 +52,8 @@
 
 
 ;; Theme and fonts
-(require 'moe-theme)
-(load-theme 'moe-dark t)
+;; (require 'monokai)
+(load-theme 'monokai t)
 
 (when window-system
   (set-face-attribute 'default nil :font "Source Code Pro-12:antialias=true"))

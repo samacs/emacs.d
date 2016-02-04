@@ -4,7 +4,7 @@
 
 ;;; Code:
 
-(require-packages '(clojure-mode))
+(require-packages '(clojure-mode cider))
 
 (require 'clojure-mode)
 (push '("\\.clj" . clojure-mode) auto-mode-alist)

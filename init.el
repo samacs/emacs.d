@@ -85,9 +85,15 @@
 (require 'my-dart)
 (require 'my-php)
 ;; (require 'my-skype)
-;; (require 'my-clojure)
-;; (require 'my-scala)
-;; (require 'my-go)
+(require 'my-clojure)
+(require 'my-scala)
+(require 'my-go)
+(require 'my-rust)
 (require 'my-modes)
+(require 'my-trello)
+(require 'my-haskell)
+(require 'my-slime)
+(require 'my-postgresql)
+(require 'my-shell)
 
 ;;; init.el ends here

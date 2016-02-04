@@ -7,3 +7,5 @@ init.el
 core/my-ui.el
 image-dired/*
 tramp
+vendor/
+request/
