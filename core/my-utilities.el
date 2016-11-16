@@ -27,6 +27,8 @@
   (untabify-buffer)
   (delete-trailing-whitespace))
 
+(add-hook 'after-init-hook 'global-company-mode)
+
 (provide 'my-utilities)
 
 ;;; my-utilities.el ends here

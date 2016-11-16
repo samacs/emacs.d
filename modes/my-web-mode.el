@@ -14,11 +14,13 @@
 (require 'auto-complete-config)
 (ac-config-default)
 (require 'coffee-mode)
+(require 'flycheck)
 
 ;; Rainbow mode
 (add-hook 'css-mode-hook (lambda () (rainbow-mode 1)))
 (add-hook 'html-mode-hook (lambda () (rainbow-mode 1)))
 (add-hook 'sass-mode-hook (lambda () (rainbow-mode 1)))
+(add-hook 'after-init-hook #'global-flycheck-mode)
 (diminish 'rainbow-mode)
 
 (recentf-mode 1)
@@ -29,9 +31,19 @@
 
 (setq web-mode-markup-indent-offset 2)
 (setq web-mode-css-indent-offset 2)
-(setq web-mode-code-indent-offset 4)
+(setq web-mode-code-indent-offset 2)
 (setq web-mode-enable-auto-closing t)
 (setq web-mode-enable-auto-pairing t)
+
+(flycheck-add-mode 'javascript-eslint 'web-mode)
+
+(when (memq window-system '(mac ns))
+  (exec-path-from-shell-initialize))
+
+(setq-default flycheck-temp-prefix ".flycheck")
+(setq-default flycheck-disabled-checkers
+              (append flycheck-disabled-checkers
+                      '(json-jsonlist)))
 
 (defadvice web-mode-highlight-part (around tweak-jsx activate)
   "JSX."
@@ -46,7 +58,7 @@
 ;; What to load with what
 (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
-;; (add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.twig\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.[gj]sp\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
@@ -57,7 +69,6 @@
 (add-to-list 'auto-mode-alist '("\\.hbs\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.jsx$" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.ejs$" . web-mode))
-;;; (add-to-list 'auto-mode-alist '("\\.html?\\'" . predictive-mode))
 
 ;; Autocomplete
 (add-hook  'web-mode-hook  'auto-complete-mode)
@@ -68,6 +79,9 @@
 ;;; (autoload 'predictive-mode "predictive" "predictive" t)
 ;;; (set-default 'predictive-auto-add-to-dict t)
 (add-to-list 'auto-mode-alist '("\\.jsx$" . web-mode))
+
+;; Tab width
+(setq-default tab-width 2)
 
 (provide 'my-web-mode)
 

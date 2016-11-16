@@ -10,6 +10,7 @@
 (require 'ruby-mode)
 
 (require 'ruby-end)
+(require 'rubocop)
 
 (push '("Gemfile" . ruby-mode) auto-mode-alist)
 (push '("Gemfile.lock" . ruby-mode) auto-mode-alist)
@@ -18,6 +19,8 @@
 (push '("\\.rake" . ruby-mode) auto-mode-alist)
 (push '("\\.gemspec" . ruby-mode) auto-mode-alist)
 (setq ruby-insert-encoding-magic-comment nil)
+
+(add-hook 'ruby-mode-hook #'rubocop-mode)
 
 (setq ruby-end-insert-newline t)
 

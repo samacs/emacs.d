@@ -9,3 +9,4 @@ image-dired/*
 tramp
 vendor/
 request/
+.cask

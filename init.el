@@ -4,6 +4,13 @@
 
 ;;; Code:
 
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
 (require 'cl)
 (require 'package)
 
@@ -59,6 +66,10 @@
  ;; If there is more than one, they won't work right.
  )
 
+(add-to-list 'load-path "~/Developer/benchmark-init-el")
+(require 'benchmark-init-loaddefs)
+(benchmark-init/activate)
+
 ;; Core configuration
 (require 'my-packages)
 (require 'my-editor)
@@ -72,6 +83,7 @@
 (require 'my-ido)
 (require 'my-magit)
 (require 'my-ruby)
+(require 'my-flow)
 (require 'my-js)
 (require 'my-lisp)
 (require 'my-text)
@@ -95,5 +107,10 @@
 (require 'my-slime)
 (require 'my-postgresql)
 (require 'my-shell)
+(require 'my-lua)
+(require 'my-elixir)
+(require 'my-typescript)
+(require 'my-nvm)
+(require 'my-cask)
 
 ;;; init.el ends here

@@ -3,7 +3,19 @@
 ;; Configure Helm C IDE.
 
 ;;; Code:
-
+s/
+README.md
+ac-comphist.dat
+auto-save-list/
+core/
+elpa/
+projectile-bookmarks.eld
+request/
+savefile/
+snippets/
+tramp
+vendor/
+   ...co
 (require-packages '(helm))
 
 ;; Helm
